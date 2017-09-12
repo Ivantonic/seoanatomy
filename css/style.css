@@ -1,0 +1,663 @@
+	/*NAVBAR*/
+	/*SLIDER*/
+	/*ABOUT*/
+	/*OUR TEAM*/
+	/*SERVICES*/
+	/*BRANDS*/
+	/*PRICING*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+	/*NAVBAR*/
+
+.navbar {
+	position:relative;
+    background-color: #ffffff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom:2px;
+    z-index: 10;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    position:absolute;
+    top:-2px;
+    left: -18px;
+}
+
+.logotip {
+    height: 44px;
+    width: auto;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-left:12px;
+    padding-right:12px;
+
+}
+
+.navbar-custom a {
+    color: #000;
+    transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+}
+
+.navbar-nav {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top:-5px;
+}
+
+.dropdown-menu > li > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: initial;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:18px;
+    margin: 0;
+}
+
+.dropdown-menu {
+	top:34px;
+}
+
+.dropdown-menu > li > a:before {
+    content: "-";
+}
+
+.dropdown-menu > li > a:hover {
+	text-decoration:none;
+}
+
+	/*SLIDER*/
+
+.test {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://mnml.seoanatomy.com/wp-content/uploads/2016/12/slider-1.jpg);
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top:-60px;
+}
+
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    border-radius: 0 1px 1px 0;
+}
+
+.owl-prev, .owl-next {
+    background: #fff;
+    border-radius: none;
+    color: #000;
+    display: inline-block;
+    font: 700 10px 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    opacity: 1;
+    padding: 8px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-prev, .owl-next {
+    margin-top: -15px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    top: 50%;
+    width: 55px;
+    z-index: 6;
+}
+
+.owl-prev:hover, .owl-next:hover {
+	cursor:pointer;
+    background: #0D4494;
+    color: #fff;
+    -webkit-transition: all 0.1s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
+}
+
+.owl-pagination {
+    bottom: 45px;
+    display: block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100 !important;
+}
+
+.owl-page {
+	display:inline-block;
+}
+
+.owl-page span {
+    background: #fff;
+    border-radius: 0;
+    display: block;
+    height: 5px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 40px;
+}
+
+.owl-page span:hover {
+	cursor:pointer;
+	opacity:1;
+}
+
+.text-container {
+	width:100%;
+}
+
+.top-txt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color:white;
+    opacity:0.75;
+    width:100%;
+    text-align:center;
+}
+
+.bottom-txt {
+    line-height: 1;
+    text-align: center;
+    width:100%;
+}
+
+.bottom-txt span {
+	color:white;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 15px;
+    position: relative;
+    text-transform: uppercase;
+    opacity:0.75;
+}
+
+	/*ABOUT*/
+
+.about-section {
+    background: #fff;
+    display: table;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.side-image {
+    padding: 0;
+    position: relative;
+}
+
+.side-image .image-container {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+.about-bg-image-holder {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    background: url(http://mnml.seoanatomy.com/wp-content/uploads/2016/12/about-background.jpg) repeat scroll 50% 0% transparent;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.about-pad {
+    padding: 100px 0 100px 100px;
+    margin-left: 50%;
+}
+
+.about-info {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: #5E5E5E;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 0 30px;
+}
+
+.about-info h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    padding: 0 0 35px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+.about-sub-title {
+    color: #0D4494;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.signature img {
+    width: 150px;
+    float: left;
+}
+
+	/*OUR TEAM*/
+
+.pic1, .pic2, .pic3 {
+	display:inline-block;
+	width:100%;
+}
+
+#our-team {
+	background-color:#F5F7FA;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+#cd-team {
+	text-align:center;
+	color: #1a2f2a;
+	font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 15px;
+    padding-bottom:20px;
+}
+
+.member-name {
+	height: 80px;
+    background: #FFF;
+    text-align: center;
+    padding-top: 20px;
+    color: #0d4494;
+    font: 700 12px 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 0 0 2px 2px;
+}
+
+.job {
+	display: block;
+    color: #999999;
+    margin-top: .55em;
+    font: 700 10px ' Source Sans Pro', sans-serif;
+}
+
+	/*BUY SECTION*/
+
+.buy-section {
+    background: url(http://mnml.seoanatomy.com/wp-content/uploads/2016/12/buy-background.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    display: table;
+    height: auto;
+    padding: 45px 0 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.purhase-box h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.button-buy {
+    -webkit-transition: all 0.1s ease-in 0s;
+    background: rgba( 13, 68, 148, 1);
+    color: #fff;
+    display: inline-block;
+    font: 700 12px 'Montserrat',sans-serif;
+    letter-spacing: 4px;
+    margin: 20px 0 10px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in 0s;
+}
+
+.purhase-box a:focus,.purhase-box a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+	/*SERVICES*/
+
+.service-ico {
+    margin: 100px 100px 80px 0;
+}
+
+.service-ico h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    padding: 0 0 35px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.services-pad {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0;
+    list-style-type: none;
+}
+
+.service-ico h4 {
+    color: #000;
+    font: 700 12px 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    margin: 0 0 12px 80px;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 100%;
+}
+
+.service-ico p {
+    color: #5e5e5e;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 0 0 80px;
+    text-align: left;
+    padding: 0 0 30px;
+}
+
+.service-ico i {
+    border: 3px solid #F5F7FA;
+    color: #0D4494;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    font-size: 30px;
+}
+
+.services-bg-image-holder {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    background: url(http://mnml.seoanatomy.com/wp-content/uploads/2016/12/services-background.jpg) repeat scroll 50% 0% transparent;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.side-image .image-container2 {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+	/*BRANDS*/
+
+.brands-section {
+    background: url(http://mnml.seoanatomy.com/wp-content/themes/mnml/images/pattern.png) repeat scroll 0 0;
+    display: table;
+    height: auto;
+    padding: 22px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.client img {
+    max-width: 120px;
+    margin: 15px 0;
+}
+
+	/*PRICING*/
+
+.pricing-section {
+    background: #fff;
+    color: #1A1A1A;
+    display: table;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.pricing-pad {
+    padding: 100px 0 100px 50px;
+    margin-left:auto;
+    min-width: 600px;
+}
+
+.pricing-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    padding: 0 0 35px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.plan {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-top: 40px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+
+.name-plan {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin: 0 58px 0 0;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+    margin-left:220px;
+}
+
+.options-plan p {
+    padding: 4px 0;
+    margin: 0;
+}
+
+.options-plan {
+    color: #5E5E5E;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 70px 40px 100px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sign-up {
+    background: #0D4494;
+    color: #fff;
+    font: 700 10px 'Montserrat',sans-serif;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    padding: 4px 0;
+    position: absolute;
+    transform: translate(50px, 0);
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 140px;
+    text-align: center;
+}
+
+
+
+.tarif-plan {
+    color: #000;
+    float: left;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 65px;
+    margin: -5px 0 0 0;
+}
+
+.tarif-plan2 {
+	margin-left:-13px;
+}
+
+.tarif-plan3 {
+	margin-left:-16px;
+}
+
+.pricing-bg-image-holder {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    background: url(http://mnml.seoanatomy.com/wp-content/uploads/2016/12/pricing-background.jpg) repeat scroll 50% 0% transparent;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 0;
+}
+
+.tarif-plan span {
+    bottom: 33px;
+    font-size: 20px;
+    position: relative;
+}
+
+
+
+/*media query on bottom*/
+
+@media only screen and (max-width: 1200px) {
+	.about-pad {
+    padding: 100px 0 100px 20px;
+    margin-left: 55%;
+	}
+	.pricing-bg-image-holder {
+	width:80%;
+	}
+	.pricing-pad {
+    padding: 100px 0 100px 40px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.about-pad {
+    padding: 100px 0 100px 10px;
+    }
+    .pricing-pad {
+    padding: 100px 0 100px 30px;
+}
+
+@media only screen and (max-width: 992px) {
+	.about-pad {
+    padding: 100px 32px 100px;
+	}
+	.pricing-bg-image-holder {
+    width:50%;
+	}
+	.navbar-nav {
+		display:none;
+	}
+	nav {
+		height:55px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.about-pad {
+    margin-left:40%;
+	}
+	.pricing-bg-image-holder {
+    width:40%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.pricing-bg-image-holder {
+    	display:none;
+	}
+	.sign-up {
+		display:none;
+	}
+	.pricing-pad {
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.about-pad {
+	margin-left:0;
+	}
+	.about-bg-image-holder {
+		display:none;
+	}
+	.side-image .image-container2 {
+		display:none;
+	}
+}
